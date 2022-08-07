@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(153, 153, 180);
+
+}
+
+.padre {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+}
+
+h1 {
+
+    text-align: center;
+    color: orangered;
+}
+
+p {
+    color: white;
+    text-align: center;
+
+}
+
+.hijo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    border: solid 1px black;
+    padding: 20px;
+
+}
+
+.hijo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+canvas {
+
+    width: 800px;
+    height: 800px;
+}
+
+button {
+    color: white;
+    background-color: rgb(62, 73, 193);
+    padding: 10px;
+    border: none;
+    width: 150px;
+    max-width: 100px;
+}
+
+select {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
